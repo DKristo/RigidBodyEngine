@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC13062F18B438E500BF4CF0 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC13062E18B438E500BF4CF0 /* Timer.cpp */; };
+		FC36E687192E3415000ED8A8 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC36E686192E3415000ED8A8 /* Camera.cpp */; };
+		FC81A5581890D55F006696EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC81A5571890D55F006696EC /* Foundation.framework */; };
+		FC81A5601890D55F006696EC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC81A55F1890D55F006696EC /* main.cpp */; };
+		FC81A570189113C4006696EC /* TestApplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC81A56F189113C4006696EC /* TestApplication.cpp */; };
+		FCA1054818A58BF700398F8E /* RigidBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCA1054718A58BF700398F8E /* RigidBody.cpp */; };
+		FCA1054E18A6C2AC00398F8E /* PhysicsSimulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCA1054D18A6C2AC00398F8E /* PhysicsSimulation.cpp */; };
+		FCA1055118A6CC5400398F8E /* CircleBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCA1055018A6CC5400398F8E /* CircleBody.cpp */; };
+		FCA1055418A6CC6900398F8E /* PolygonBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCA1055318A6CC6900398F8E /* PolygonBody.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC13062C18B438DB00BF4CF0 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		FC13062E18B438E500BF4CF0 /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		FC36E684192E340C000ED8A8 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		FC36E686192E3415000ED8A8 /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		FC81A5531890D55F006696EC /* DylanEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DylanEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC81A5571890D55F006696EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		FC81A55B1890D55F006696EC /* DylanEngine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DylanEngine-Info.plist"; sourceTree = "<group>"; };
+		FC81A55F1890D55F006696EC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FC81A56F189113C4006696EC /* TestApplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestApplication.cpp; sourceTree = "<group>"; };
+		FC81A571189113D8006696EC /* TestApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestApplication.h; sourceTree = "<group>"; };
+		FCA1054518A58BEC00398F8E /* RigidBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RigidBody.h; sourceTree = "<group>"; };
+		FCA1054718A58BF700398F8E /* RigidBody.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RigidBody.cpp; sourceTree = "<group>"; };
+		FCA1054918A58C1A00398F8E /* Vector2f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector2f.h; sourceTree = "<group>"; };
+		FCA1054C18A6C29C00398F8E /* PhysicsSimulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsSimulation.h; sourceTree = "<group>"; };
+		FCA1054D18A6C2AC00398F8E /* PhysicsSimulation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PhysicsSimulation.cpp; sourceTree = "<group>"; };
+		FCA1054F18A6CC4800398F8E /* CircleBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleBody.h; sourceTree = "<group>"; };
+		FCA1055018A6CC5400398F8E /* CircleBody.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CircleBody.cpp; sourceTree = "<group>"; };
+		FCA1055218A6CC5E00398F8E /* PolygonBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonBody.h; sourceTree = "<group>"; };
+		FCA1055318A6CC6900398F8E /* PolygonBody.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PolygonBody.cpp; sourceTree = "<group>"; };
+		FCF631F318D0C32800A1E7F0 /* Collision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collision.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC81A54F1890D55F006696EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC81A5581890D55F006696EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC81A5471890D55E006696EC = {
+			isa = PBXGroup;
+			children = (
+				FC81A5591890D55F006696EC /* DylanEngine */,
+				FC81A5561890D55F006696EC /* Frameworks */,
+				FC81A5541890D55F006696EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC81A5541890D55F006696EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC81A5531890D55F006696EC /* DylanEngine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC81A5561890D55F006696EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC81A5571890D55F006696EC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC81A5591890D55F006696EC /* DylanEngine */ = {
+			isa = PBXGroup;
+			children = (
+				FCA1054918A58C1A00398F8E /* Vector2f.h */,
+				FCF631F318D0C32800A1E7F0 /* Collision.h */,
+				FC36E684192E340C000ED8A8 /* Camera.h */,
+				FC36E686192E3415000ED8A8 /* Camera.cpp */,
+				FCA1054C18A6C29C00398F8E /* PhysicsSimulation.h */,
+				FCA1054D18A6C2AC00398F8E /* PhysicsSimulation.cpp */,
+				FCA1054518A58BEC00398F8E /* RigidBody.h */,
+				FCA1054718A58BF700398F8E /* RigidBody.cpp */,
+				FCA1054F18A6CC4800398F8E /* CircleBody.h */,
+				FCA1055018A6CC5400398F8E /* CircleBody.cpp */,
+				FCA1055218A6CC5E00398F8E /* PolygonBody.h */,
+				FCA1055318A6CC6900398F8E /* PolygonBody.cpp */,
+				FC13062C18B438DB00BF4CF0 /* Timer.h */,
+				FC13062E18B438E500BF4CF0 /* Timer.cpp */,
+				FC81A571189113D8006696EC /* TestApplication.h */,
+				FC81A56F189113C4006696EC /* TestApplication.cpp */,
+				FC81A55F1890D55F006696EC /* main.cpp */,
+				FC81A5611890D55F006696EC /* Resources */,
+				FC81A55A1890D55F006696EC /* Supporting Files */,
+			);
+			path = DylanEngine;
+			sourceTree = "<group>";
+		};
+		FC81A55A1890D55F006696EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC81A55B1890D55F006696EC /* DylanEngine-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC81A5611890D55F006696EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC81A5521890D55F006696EC /* DylanEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC81A56C1890D55F006696EC /* Build configuration list for PBXNativeTarget "DylanEngine" */;
+			buildPhases = (
+				FC81A54E1890D55F006696EC /* Sources */,
+				FC81A54F1890D55F006696EC /* Frameworks */,
+				FC81A5501890D55F006696EC /* Resources */,
+				FC81A5511890D55F006696EC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DylanEngine;
+			productName = DylanEngine;
+			productReference = FC81A5531890D55F006696EC /* DylanEngine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC81A5491890D55E006696EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Carleton University";
+			};
+			buildConfigurationList = FC81A54C1890D55E006696EC /* Build configuration list for PBXProject "DylanEngine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC81A5471890D55E006696EC;
+			productRefGroup = FC81A5541890D55F006696EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC81A5521890D55F006696EC /* DylanEngine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC81A5501890D55F006696EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FC81A5511890D55F006696EC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required sfml dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# Are we building a project that uses framework or dylibs ?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert : not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $1 is a path\n{\n    test $# -eq 1\n    assert $? \"force_remove() requires one parameter\"\n    rm -fr \"$1\"\n    assert $? \"couldn't remove $1\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app/Contents/Frameworks\"\n    \n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1.2.dylib\"\n        force_remove \"$dest/libsfml-$1-d.2.dylib\"\n        force_remove \"$dest/sfml-$1.framework\"\n    \n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            copy \"/Library/Frameworks/sfml-$1.framework\" \"$dest/sfml-$1.framework\"\n        elif [ $CONFIGURATION = \"Debug\" ] && [ $SFML_LINK_DYLIBS_SUFFIX_DEBUG != \"\" ]\n        then\n            copy \"/usr/local/lib/libsfml-$1-d.2.dylib\" \"$dest/libsfml-$1-d.2.dylib\"\n        else\n            copy \"/usr/local/lib/libsfml-$1.2.dylib\" \"$dest/libsfml-$1.2.dylib\"\n        fi\n        \n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy sndfile framework too\n            copy \"/Library/Frameworks/sndfile.framework\" \"$dest/sndfile.framework\"\n        fi\n\n        if [ \"$1\" = \"graphics\" ]\n        then\n            # copy freetype framework too\n            copy \"/Library/Frameworks/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC81A54E1890D55F006696EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC81A5601890D55F006696EC /* main.cpp in Sources */,
+				FC81A570189113C4006696EC /* TestApplication.cpp in Sources */,
+				FCA1054818A58BF700398F8E /* RigidBody.cpp in Sources */,
+				FCA1054E18A6C2AC00398F8E /* PhysicsSimulation.cpp in Sources */,
+				FCA1055118A6CC5400398F8E /* CircleBody.cpp in Sources */,
+				FCA1055418A6CC6900398F8E /* PolygonBody.cpp in Sources */,
+				FC13062F18B438E500BF4CF0 /* Timer.cpp in Sources */,
+				FC36E687192E3415000ED8A8 /* Camera.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC81A56A1890D55F006696EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX)sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX)sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework ";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX)sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX)sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX)sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		FC81A56B1890D55F006696EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX)sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX)sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework ";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX)sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX)sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX)sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		FC81A56D1890D55F006696EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DylanEngine/DylanEngine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC81A56E1890D55F006696EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DylanEngine/DylanEngine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC81A54C1890D55E006696EC /* Build configuration list for PBXProject "DylanEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC81A56A1890D55F006696EC /* Debug */,
+				FC81A56B1890D55F006696EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC81A56C1890D55F006696EC /* Build configuration list for PBXNativeTarget "DylanEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC81A56D1890D55F006696EC /* Debug */,
+				FC81A56E1890D55F006696EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC81A5491890D55E006696EC /* Project object */;
+}
